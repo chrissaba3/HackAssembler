@@ -1,3 +1,5 @@
+package com.cjsaba.hack;
+
 public class Error {
     public static void error(String message, String fileName, int lineNum, String line)
     {

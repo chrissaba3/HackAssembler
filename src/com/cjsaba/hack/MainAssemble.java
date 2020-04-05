@@ -1,4 +1,4 @@
-
+package com.cjsaba.hack;
 import java.io.*;
 
 public class MainAssemble {

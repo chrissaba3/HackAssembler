@@ -1,4 +1,4 @@
-
+package com.cjsaba.hack;
 
 public class Code {
     // returns binary code (3 bits) of dest mnemnonic

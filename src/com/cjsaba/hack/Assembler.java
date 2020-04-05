@@ -1,3 +1,5 @@
+package com.cjsaba.hack;
+
 import java.io.*;
 import java.util.*;
 
@@ -93,7 +95,7 @@ public class Assembler {
                 }
             }
             catch (InvalidDestException ex) {
-                Error.error("Invalid destination", inputFile, parser.lineNumber, parser.currentLine);
+               Error.error("Invalid destination", inputFile, parser.lineNumber, parser.currentLine);
             }
             catch (InvalidCompException ex) {
                 Error.error("Invalid computation", inputFile, parser.lineNumber, parser.currentLine);
